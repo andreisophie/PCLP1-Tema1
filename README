@@ -1,0 +1,32 @@
+#Tema by Andrei Maruntis, 313CA
+
+Problema 1: ninel
+		Verific daca fiecare copac (in afara de primul si ultimul) este special
+	pe masura ce ii citesc si calculez valorile cerute.
+		Exista 2 exceptii care trebuie rezolvate la tema asta:
+		-	daca avem mai putin de 3 copaci atunci nu exista copaci speciali 
+		(care sa aiba 2 vecini) si afisez 0
+		- 	daca nu exista copaci speciali pari sau impari, afisez -1 la 
+		cerintele 3 sau 4
+
+Problema 2: vectsecv
+		Folosesc functii pentru a numara cate cifre are numarul citit si pentru 
+	a face noile nr cu cifrele in ordine crescatoare/descrescatoare.
+		Momorez numerele intermediare intr-un vector si verific la fiecare pas 
+	daca numarul obtinut a mai aparut, caz in care afisez solutia problemei.
+
+Problema 3: codeinvim
+		In urma citirii datelor problemei creez un vector cu punctele care mai 
+	pot fi castigate (daca ar avea nota 10), iar apoi adun acele puncte la
+	numarul de puncte pe care il are deja pana cand ajunge la punctajul minim.
+		Daca nu se poate ajunge la punctajul minim (nici cu toate notele 10),
+	atunci afisez -1 (problema nu are solutie).
+
+Problema 4: nomogram
+		Retin restrictiile pentru linii si coloane in 2 matrici, unde primul 
+	element (cu indicele 0) de pe fiecare linie rerezinta numarul de grupuri
+	de pe acea linie (din matrice, nu din nomograma).
+		Verific pe rand fiecare linie si coloana din tabel si daca vreuna nu
+	respecta restrictiile, afisez mesajul Eroare, respectiv Corect daca
+	verificarea ajunge la final.
+		Urmez acesti pasi pentru fiecare nomograma citita.
